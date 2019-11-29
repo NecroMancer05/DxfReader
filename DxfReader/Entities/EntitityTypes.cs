@@ -1,0 +1,29 @@
+﻿namespace DxfReader.Entities
+{
+    public enum EntitityTypes
+    {
+        Unknown,
+        Point,
+        Line,
+        MLine,
+        Polyline,
+        Circle,
+        Arc,
+        Ellipse,
+        Trace,
+        Solid,
+        Insert,
+        LWPolyline,
+        Text,
+        MText,
+        Hatch,
+        Spline,
+        Face3D,
+        ViewPort,
+        Image,
+        Dimension,
+        Leader,
+        Ray,
+        XLine
+    }
+}
